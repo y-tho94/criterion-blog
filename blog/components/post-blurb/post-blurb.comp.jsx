@@ -14,6 +14,7 @@ export default function PostBlurb({postId, postedDate, title, blurb, img}) {
     <Box
       height="flex"
       width={{max:"medium"}}
+      fill="horizontal"
     >
       <Link href={`/posts/${postId}`}>
         <Card>
